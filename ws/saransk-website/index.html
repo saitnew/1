@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Саранск — Столица Мордовии</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">Саранск</span>
+                <span class="logo-subtext">Город возможностей</span>
+            </div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="nav-link active">Главная</a></li>
+                <li><a href="#about" class="nav-link">О городе</a></li>
+                <li><a href="#attractions" class="nav-link">Достопримечательности</a></li>
+                <li><a href="#history" class="nav-link">История</a></li>
+                <li><a href="#gallery" class="nav-link">Галерея</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg">
+            <div class="particles" id="particles"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title" data-animate="fade-up">
+                <span class="title-line">Добро пожаловать в</span>
+                <span class="title-line gradient-text">САРАНСК</span>
+            </h1>
+            <p class="hero-subtitle" data-animate="fade-up" data-delay="200">
+                Столица Республики Мордовия, где история встречается с будущим
+            </p>
+            <div class="hero-buttons" data-animate="fade-up" data-delay="400">
+                <a href="#about" class="btn btn-primary">Узнать больше</a>
+                <a href="#gallery" class="btn btn-outline">Посмотреть фото</a>
+            </div>
+            <div class="scroll-indicator" data-animate="fade-up" data-delay="600">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+                <span>Листайте вниз</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">О городе</span>
+                <h2 class="section-title">Сердце Мордовии</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text" data-animate="fade-right">
+                    <p class="about-description">
+                        Саранск — столица Республики Мордовия, один из старейших городов Поволжья. 
+                        Основанный в 1641 году как крепость, сегодня он является важным 
+                        культурным, экономическим и научным центром региона.
+                    </p>
+                    <div class="stats-grid">
+                        <div class="stat-item" data-animate="zoom-in" data-delay="100">
+                            <span class="stat-number" data-count="380">0</span>
+                            <span class="stat-label">тыс. жителей</span>
+                        </div>
+                        <div class="stat-item" data-animate="zoom-in" data-delay="200">
+                            <span class="stat-number" data-count="1641">0</span>
+                            <span class="stat-label">год основания</span>
+                        </div>
+                        <div class="stat-item" data-animate="zoom-in" data-delay="300">
+                            <span class="stat-number" data-count="300">0</span>
+                            <span class="stat-label">км? площадь</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-animate="fade-left">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <svg viewBox="0 0 400 300" class="city-svg">
+                                <rect x="50" y="150" width="80" height="120" fill="#4a90e2"/>
+                                <rect x="150" y="100" width="100" height="170" fill="#2c3e50"/>
+                                <polygon points="150,100 200,50 250,100" fill="#e74c3c"/>
+                                <rect x="270" y="130" width="80" height="140" fill="#3498db"/>
+                                <circle cx="200" cy="80" r="30" fill="#f39c12"/>
+                            </svg>
+                        </div>
+                        <div class="image-decoration"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Attractions Section -->
+    <section id="attractions" class="attractions-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Достопримечательности</span>
+                <h2 class="section-title">Что посмотреть</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="attractions-grid">
+                <div class="attraction-card" data-animate="fade-up" data-delay="100">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <svg viewBox="0 0 300 200" class="attraction-icon">
+                                <circle cx="150" cy="100" r="60" fill="none" stroke="#fff" stroke-width="3"/>
+                                <path d="M150 40 L150 160 M90 100 L210 100" stroke="#fff" stroke-width="3"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Собор Святого Феодора Ушакова</h3>
+                        <p>Величественный православный храм, ставший одной из визитных карточек города.</p>
+                    </div>
+                </div>
+                <div class="attraction-card" data-animate="fade-up" data-delay="200">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <svg viewBox="0 0 300 200" class="attraction-icon">
+                                <rect x="80" y="60" width="140" height="100" fill="none" stroke="#fff" stroke-width="3"/>
+                                <rect x="120" y="40" width="60" height="20" fill="none" stroke="#fff" stroke-width="3"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Музей культуры и быта</h3>
+                        <p>Уникальная коллекция, рассказывающая о традициях мордовского народа.</p>
+                    </div>
+                </div>
+                <div class="attraction-card" data-animate="fade-up" data-delay="300">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <svg viewBox="0 0 300 200" class="attraction-icon">
+                                <ellipse cx="150" cy="100" rx="80" ry="50" fill="none" stroke="#fff" stroke-width="3"/>
+                                <path d="M70 100 Q110 60 150 100 Q190 140 230 100" fill="none" stroke="#fff" stroke-width="3"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Парк Победы</h3>
+                        <p>Огромный парк с мемориалами, аллеями и прекрасными прудами.</p>
+                    </div>
+                </div>
+                <div class="attraction-card" data-animate="fade-up" data-delay="400">
+                    <div class="card-image">
+                        <div class="card-placeholder">
+                            <svg viewBox="0 0 300 200" class="attraction-icon">
+                                <polygon points="150,40 200,80 180,140 120,140 100,80" fill="none" stroke="#fff" stroke-width="3"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Стела «Саранск — город трудовой доблести»</h3>
+                        <p>Монумент, посвященный трудовым подвигам жителей города в годы войны.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="history-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">История</span>
+                <h2 class="section-title">Путь сквозь века</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-animate="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>1641</h3>
+                        <p>Основание Саранской крепости на юго-восточной окраине Московского государства.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>1780</h3>
+                        <p>Саранск получает статус города и становится центром Пензенской губернии.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>1934</h3>
+                        <p>Становление столицей Мордовской АССР.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-animate="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>2018</h3>
+                        <p>Принял матчи Чемпионата мира по футболу FIFA 2018.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Галерея</span>
+                <h2 class="section-title">Город в кадре</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large" data-animate="fade-up">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 400 300" class="gallery-icon">
+                            <rect width="400" height="300" fill="rgba(255,255,255,0.1)"/>
+                            <text x="200" y="150" text-anchor="middle" fill="#fff" font-size="24">Собор</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="100">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 300 200" class="gallery-icon">
+                            <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                            <text x="150" y="100" text-anchor="middle" fill="#fff" font-size="18">Парк</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="200">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 300 200" class="gallery-icon">
+                            <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                            <text x="150" y="100" text-anchor="middle" fill="#fff" font-size="18">Центр</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="300">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 300 200" class="gallery-icon">
+                            <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                            <text x="150" y="100" text-anchor="middle" fill="#fff" font-size="18">Театр</text>
+                        </svg>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="400">
+                    <div class="gallery-placeholder">
+                        <svg viewBox="0 0 300 200" class="gallery-icon">
+                            <rect width="300" height="200" fill="rgba(255,255,255,0.1)"/>
+                            <text x="150" y="100" text-anchor="middle" fill="#fff" font-size="18">Ночь</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-tag">Контакты</span>
+                <h2 class="section-title">Приезжайте в Саранск</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <div class="contact-item">
+                        <div class="contact-icon">??</div>
+                        <div>
+                            <h4>Адрес</h4>
+                            <p>Республика Мордовия, г. Саранск</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">??</div>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>+7 (8342) 00-00-00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">??</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@saransk.ru</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-animate="fade-left">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Сообщение" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Саранск</span>
+                    <p>Столица Республики Мордовия</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Главная</a>
+                    <a href="#about">О городе</a>
+                    <a href="#attractions">Достопримечательности</a>
+                    <a href="#history">История</a>
+                    <a href="#gallery">Галерея</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon">Vk</a>
+                    <a href="#" class="social-icon">Tg</a>
+                    <a href="#" class="social-icon">Yt</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Саранск. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
